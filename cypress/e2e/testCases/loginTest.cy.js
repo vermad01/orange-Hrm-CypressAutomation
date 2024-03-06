@@ -13,8 +13,10 @@ describe('Login suit',function() {
             loginPage.enterUsername(data.username)
             loginPage.enterPassword(data.password)
             loginPage.clickSubmitButton()
-            // loginPage.validateText()
+            loginPage.validateText()
+
         })
+        
 
        
     })
